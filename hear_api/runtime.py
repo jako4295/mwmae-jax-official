@@ -5,7 +5,7 @@ import sys
 sys.path.append('..')
 import torch
 from .feature_helper import LogMelSpec, get_timestamps
-from src.trainer import MAETrainer
+from llm_tools.encoder.mwmae_jax_official.src.trainer import MAETrainer
 from functools import partial
 
 
